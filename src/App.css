@@ -2,12 +2,23 @@
   text-align: center;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
   background: #0c021b;
   color: white;
+}
 
+.nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.navStyle {
+  color: white;
 }
