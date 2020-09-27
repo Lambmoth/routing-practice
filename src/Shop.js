@@ -6,6 +6,7 @@ function Shop() {
     
     useEffect(() => {
         fetchItems();
+        
     },[]);
 
     const [items, setItems] = useState([]);
@@ -22,7 +23,7 @@ function Shop() {
         <div >
             { items.map(item => (
                 <h1 key={item.id}>
-                    <Link to={`/shop/${item.name}`}>{item.name}</Link>
+                    <Link to={`/shop/${item.id}`}>{item.name}</Link>
                 </h1>
             )) }
         </div>
